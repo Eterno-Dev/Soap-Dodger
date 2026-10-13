@@ -52,6 +52,25 @@ public class playerMovement : MonoBehaviour
         controls = new PlayerControls();
         playerCollider = GetComponent<Collider2D>();
         audioSource = GetComponent<AudioSource>(); // Obtén el AudioSource
+
+        if (uiPausa == null)
+        {
+            PauseMenu pm = FindAnyObjectByType<PauseMenu>(FindObjectsInactive.Include);
+            if (pm != null)
+            {
+                uiPausa = pm.gameObject;
+            }
+            else
+            {
+                GameObject p = GameObject.Find("Pause");
+                if (p != null) uiPausa = p;
+            }
+        }
+
+        if (uiPausa != null)
+        {
+            uiPausa.SetActive(false);
+        }
     }
 
     void OnEnable()
@@ -81,6 +100,20 @@ public class playerMovement : MonoBehaviour
         tiempo = false;
         canDash = false;
         enPausa = false;
+
+        if (uiPausa == null)
+        {
+            PauseMenu pm = FindAnyObjectByType<PauseMenu>(FindObjectsInactive.Include);
+            if (pm != null)
+            {
+                uiPausa = pm.gameObject;
+            }
+            else
+            {
+                GameObject p = GameObject.Find("Pause");
+                if (p != null) uiPausa = p;
+            }
+        }
 
         if (uiTiempo) uiTiempo.SetActive(false);
         if (uiMuerte) uiMuerte.SetActive(false);

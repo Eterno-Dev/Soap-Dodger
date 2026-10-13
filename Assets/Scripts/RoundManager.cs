@@ -31,11 +31,11 @@ public class RoundManager : MonoBehaviour
 
     void Update()
     {
-        if (isRoundActive)
+        if (isRoundActive && (pj == null || !pj.enPausa))
         {
             // Decrementar el temporizador
             Debug.Log("Sube puntuacion");
-            if(pj.muerto == false)
+            if (pj != null && pj.muerto == false)
             {
                 SM.AddScore(1);
             }

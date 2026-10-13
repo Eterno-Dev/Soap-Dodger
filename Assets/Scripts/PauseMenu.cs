@@ -12,6 +12,12 @@ public class PauseMenu : MonoBehaviour
 
     private playerMovement player;
 
+    void Awake()
+    {
+        // Asegurar que el menu de pausa se oculte por defecto de inmediato al iniciar
+        gameObject.SetActive(false);
+    }
+
     void Start()
     {
         player = FindAnyObjectByType<playerMovement>();
