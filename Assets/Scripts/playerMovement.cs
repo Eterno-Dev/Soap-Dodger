@@ -84,6 +84,8 @@ public class playerMovement : MonoBehaviour
 
     void Update()
     {
+        if (PauseMenu.isPaused) return;
+
         movement = controls.Gameplay.Move.ReadValue<Vector2>();
 
         if (tiempo)
@@ -127,7 +129,7 @@ public class playerMovement : MonoBehaviour
 
     void FixedUpdate()
     {
-        if (muerto) return;
+        if (muerto || PauseMenu.isPaused) return;
 
         if (isDashing)
         {
@@ -141,7 +143,7 @@ public class playerMovement : MonoBehaviour
 
     private void TryDash()
     {
-        if (!isDashing && canDash)
+        if (!isDashing && canDash && !PauseMenu.isPaused)
         {
             StartDash();
         }
