@@ -224,6 +224,13 @@ public class playerMovement : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Enemy"))
         {
+            // Si es una aguja y todavia esta en fase de seguimiento, no hace dano
+            ProyectilDeSeguimiento aguja = collision.gameObject.GetComponent<ProyectilDeSeguimiento>();
+            if (aguja != null && !aguja.disparado)
+            {
+                return;
+            }
+
             if (!escudo && !isDashing)
             {
                 anim.SetBool("deat", true);

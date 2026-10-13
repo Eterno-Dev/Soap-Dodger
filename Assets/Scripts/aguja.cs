@@ -1,6 +1,5 @@
 using UnityEngine;
 using System.Collections;
-using Unity.VisualScripting;
 
 public class ProyectilDeSeguimiento : MonoBehaviour
 {
@@ -8,37 +7,43 @@ public class ProyectilDeSeguimiento : MonoBehaviour
     public float tiempoSeguirJugador = 5f; // Tiempo durante el cual sigue al jugador
     Transform jugador; // Referencia al jugador
     private Vector3 posicionGuardadaJugador; // Posición guardada del jugador después de 5 segundos
-    //private bool siguiendoJugador = true; // Bandera para controlar si debe seguir al jugador o no
     private Rigidbody2D rb;
-    int i;
+    private BoxCollider2D boxCol;
 
-    bool disparado;
+    public bool disparado = false;
 
     RoundManager RM;
-    PlayerScoreManager SM; // Referencia al script del jugador
+    PlayerScoreManager SM;
     float timer;
-    void Start()
+
+    void Awake()
     {
         disparado = false;
+        boxCol = GetComponent<BoxCollider2D>();
+        if (boxCol != null)
+        {
+            boxCol.enabled = false; // Desactivar collider desde el primer frame para evitar matar al spawnear
+        }
+    }
+
+    void Start()
+    {
         SM = FindAnyObjectByType<PlayerScoreManager>();
         RM = FindAnyObjectByType<RoundManager>();
-        rb = GetComponent<Rigidbody2D>(); // Obtiene el Rigidbody2D del proyectil
-        jugador = GameObject.FindGameObjectWithTag("Player").transform; // Asigna al jugador si no está asignado
+        rb = GetComponent<Rigidbody2D>();
         
+        GameObject pjObj = GameObject.FindGameObjectWithTag("Player");
+        if (pjObj != null)
+        {
+            jugador = pjObj.transform;
+        }
+
         StartCoroutine(SeguirJugador());
     }
 
     private void Update()
     {
-        if(disparado == false)
-        {
-            gameObject.GetComponent<BoxCollider2D>().enabled = false;
-        }
-        else
-        {
-            gameObject.GetComponent<BoxCollider2D>().enabled = true;
-        }
-        timer = RM.timer;
+        timer = RM != null ? RM.timer : 0f;
         if (Mathf.Ceil(timer) <= 0)
         {
             Destroy(gameObject);
@@ -49,40 +54,44 @@ public class ProyectilDeSeguimiento : MonoBehaviour
     {
         float tiempoPasado = 0f;
 
-        // Durante los primeros 5 segundos, el proyectil sigue al jugador
+        // Durante los primeros 5 segundos, el proyectil apunta al jugador sin collider activo
         while (tiempoPasado < tiempoSeguirJugador)
         {
-            // Calcula la dirección hacia el jugador
-            Vector3 direccion = (jugador.position - transform.position).normalized;
+            if (jugador != null)
+            {
+                Vector3 direccion = (jugador.position - transform.position).normalized;
+                transform.up = direccion;
+            }
 
-            // Hace que el proyectil mire hacia el jugador
-            transform.up = direccion;
-
-            // Aumenta el tiempo transcurrido
             tiempoPasado += Time.deltaTime;
-
             yield return null;
         }
-        disparado = true;
+
         // Guarda la posición del jugador cuando se cumplen los 5 segundos
-        posicionGuardadaJugador = jugador.position;
+        if (jugador != null)
+        {
+            posicionGuardadaJugador = jugador.position;
+        }
 
         // Deja de seguir al jugador
-        rb.linearVelocity = Vector2.zero; // Detiene el movimiento
+        rb.linearVelocity = Vector2.zero;
 
-        // Ahora el proyectil disparará hacia la posición guardada
+        // Disparar hacia la posición guardada
         StartCoroutine(DispararHaciaPosicion());
     }
 
     IEnumerator DispararHaciaPosicion()
     {
-        // Espera un momento (si es necesario, por ejemplo, medio segundo)
         yield return new WaitForSeconds(0.5f);
 
-        // Calcula la dirección hacia la posición guardada
-        Vector3 direccion = (posicionGuardadaJugador - transform.position).normalized;
+        // Se activa como letal y se habilita el collider al momento del lanzamiento
+        disparado = true;
+        if (boxCol != null)
+        {
+            boxCol.enabled = true;
+        }
 
-        // Establece la velocidad del proyectil en esa dirección
+        Vector3 direccion = (posicionGuardadaJugador - transform.position).normalized;
         rb.linearVelocity = direccion * velocidadProyectil;
     }
 
