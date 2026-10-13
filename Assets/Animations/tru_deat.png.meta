@@ -1,0 +1,884 @@
+fileFormatVersion: 2
+guid: 5b16bfe2b0fafb44c99bb23656f1043c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6983528620451056557
+    second: tru_deat_0
+  - first:
+      213: -8206787190654957998
+    second: tru_deat_1
+  - first:
+      213: -1368822604055621540
+    second: tru_deat_2
+  - first:
+      213: 8741254754404486820
+    second: tru_deat_3
+  - first:
+      213: -6251505475314151183
+    second: tru_deat_4
+  - first:
+      213: 7609627110687475219
+    second: tru_deat_5
+  - first:
+      213: -2221848173339173598
+    second: tru_deat_6
+  - first:
+      213: 509158078062454371
+    second: tru_deat_7
+  - first:
+      213: 5488618013387618416
+    second: tru_deat_8
+  - first:
+      213: 8693921055938904303
+    second: tru_deat_9
+  - first:
+      213: -6267414515383631999
+    second: tru_deat_10
+  - first:
+      213: -618311502537253661
+    second: tru_deat_11
+  - first:
+      213: -3899096051167382578
+    second: tru_deat_12
+  - first:
+      213: 1754680844086518146
+    second: tru_deat_13
+  - first:
+      213: -6158271474975057739
+    second: tru_deat_14
+  - first:
+      213: -6512423397988852564
+    second: tru_deat_15
+  - first:
+      213: -615307790707447919
+    second: tru_deat_16
+  - first:
+      213: 8794829044188512975
+    second: tru_deat_17
+  - first:
+      213: -6910038209663635316
+    second: tru_deat_18
+  - first:
+      213: 6254503468597415933
+    second: tru_deat_19
+  - first:
+      213: -2463811471660878116
+    second: tru_deat_20
+  - first:
+      213: -849548653469430043
+    second: tru_deat_21
+  - first:
+      213: -9053035280354327868
+    second: tru_deat_22
+  - first:
+      213: -812733300983635829
+    second: tru_deat_23
+  - first:
+      213: 3318605423699342591
+    second: tru_deat_24
+  - first:
+      213: -2586599351706700470
+    second: tru_deat_25
+  - first:
+      213: 5085874379844756323
+    second: tru_deat_26
+  - first:
+      213: 793729369236126597
+    second: tru_deat_27
+  - first:
+      213: 5118847546181763761
+    second: tru_deat_28
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 150
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: tru_deat_0
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 1536
+        width: 113
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dab42cca74a7ae060800000000000000
+      internalID: 6983528620451056557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tru_deat_1
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 1543
+        width: 113
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25609c11882ab1e80800000000000000
+      internalID: -8206787190654957998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tru_deat_2
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 1551
+        width: 114
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c505dbc0817f00de0800000000000000
+      internalID: -1368822604055621540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tru_deat_3
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 1563
+        width: 113
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ae497fc2ec2f4970800000000000000
+      internalID: 8741254754404486820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tru_deat_4
+      rect:
+        serializedVersion: 2
+        x: 1387
+        y: 1556
+        width: 114
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f09d7064e03e39a0800000000000000
+      internalID: -6251505475314151183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tru_deat_5
+      rect:
+        serializedVersion: 2
+        x: 1708
+        y: 1549
+        width: 114
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31685b52a83da9960800000000000000
+      internalID: 7609627110687475219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tru_deat_6
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 1185
+        width: 113
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22d9443bbd86a21e0800000000000000
+      internalID: -2221848173339173598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tru_deat_7
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 1185
+        width: 114
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 366ee690394e01700800000000000000
+      internalID: 509158078062454371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tru_deat_8
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 1185
+        width: 114
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07877c3d00d7b2c40800000000000000
+      internalID: 5488618013387618416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tru_deat_9
+      rect:
+        serializedVersion: 2
+        x: 1065
+        y: 1185
+        width: 113
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe00784532307a870800000000000000
+      internalID: 8693921055938904303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tru_deat_10
+      rect:
+        serializedVersion: 2
+        x: 1386
+        y: 1185
+        width: 113
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18f7e6654bba509a0800000000000000
+      internalID: -6267414515383631999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tru_deat_11
+      rect:
+        serializedVersion: 2
+        x: 1707
+        y: 1185
+        width: 112
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ec9ab2e6f05b67f0800000000000000
+      internalID: -618311502537253661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tru_deat_12
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 829
+        width: 113
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec33a0dbcc0a3e9c0800000000000000
+      internalID: -3899096051167382578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tru_deat_13
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 829
+        width: 113
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 281a5f55ee0e95810800000000000000
+      internalID: 1754680844086518146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tru_deat_14
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 829
+        width: 112
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b8d0bfa8bc698aa0800000000000000
+      internalID: -6158271474975057739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tru_deat_15
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 829
+        width: 112
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cac9eef7c693f95a0800000000000000
+      internalID: -6512423397988852564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tru_deat_16
+      rect:
+        serializedVersion: 2
+        x: 1385
+        y: 833
+        width: 111
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1972a5b03dcf577f0800000000000000
+      internalID: -615307790707447919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tru_deat_17
+      rect:
+        serializedVersion: 2
+        x: 1677
+        y: 826
+        width: 138
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc2052f2b628d0a70800000000000000
+      internalID: 8794829044188512975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tru_deat_18
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 453
+        width: 166
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c807f98fbdc9a10a0800000000000000
+      internalID: -6910038209663635316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tru_deat_19
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 447
+        width: 184
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dff823454c57cc650800000000000000
+      internalID: 6254503468597415933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tru_deat_20
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 447
+        width: 184
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd6fe163588cecdd0800000000000000
+      internalID: -2463811471660878116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tru_deat_21
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 447
+        width: 184
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ee0b82300cc534f0800000000000000
+      internalID: -849548653469430043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tru_deat_22
+      rect:
+        serializedVersion: 2
+        x: 1310
+        y: 447
+        width: 184
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c2c667a0682d5280800000000000000
+      internalID: -9053035280354327868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tru_deat_23
+      rect:
+        serializedVersion: 2
+        x: 1631
+        y: 447
+        width: 184
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b806db96e5798b4f0800000000000000
+      internalID: -812733300983635829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tru_deat_24
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 91
+        width: 184
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff4b845dc0e0e0e20800000000000000
+      internalID: 3318605423699342591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tru_deat_25
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 91
+        width: 184
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a453441189d8a1cd0800000000000000
+      internalID: -2586599351706700470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tru_deat_26
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 91
+        width: 184
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36328e66dc7a49640800000000000000
+      internalID: 5085874379844756323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tru_deat_27
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 91
+        width: 184
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58b3d1de7a4e30b00800000000000000
+      internalID: 793729369236126597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tru_deat_28
+      rect:
+        serializedVersion: 2
+        x: 1310
+        y: 91
+        width: 184
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b24b81f8bcc90740800000000000000
+      internalID: 5118847546181763761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5ae649ebf5607eb47918d90d150cb566
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      tru_deat_0: 6983528620451056557
+      tru_deat_1: -8206787190654957998
+      tru_deat_10: -6267414515383631999
+      tru_deat_11: -618311502537253661
+      tru_deat_12: -3899096051167382578
+      tru_deat_13: 1754680844086518146
+      tru_deat_14: -6158271474975057739
+      tru_deat_15: -6512423397988852564
+      tru_deat_16: -615307790707447919
+      tru_deat_17: 8794829044188512975
+      tru_deat_18: -6910038209663635316
+      tru_deat_19: 6254503468597415933
+      tru_deat_2: -1368822604055621540
+      tru_deat_20: -2463811471660878116
+      tru_deat_21: -849548653469430043
+      tru_deat_22: -9053035280354327868
+      tru_deat_23: -812733300983635829
+      tru_deat_24: 3318605423699342591
+      tru_deat_25: -2586599351706700470
+      tru_deat_26: 5085874379844756323
+      tru_deat_27: 793729369236126597
+      tru_deat_28: 5118847546181763761
+      tru_deat_3: 8741254754404486820
+      tru_deat_4: -6251505475314151183
+      tru_deat_5: 7609627110687475219
+      tru_deat_6: -2221848173339173598
+      tru_deat_7: 509158078062454371
+      tru_deat_8: 5488618013387618416
+      tru_deat_9: 8693921055938904303
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

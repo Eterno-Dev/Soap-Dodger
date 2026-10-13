@@ -1,0 +1,988 @@
+fileFormatVersion: 2
+guid: 9a4fa95d2a058cd4f97713cd8723b08a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6683842494872870763
+    second: TiempoAnim_0
+  - first:
+      213: 4516293003720101495
+    second: TiempoAnim_1
+  - first:
+      213: -8005819765477507237
+    second: TiempoAnim_2
+  - first:
+      213: 8800873214830411374
+    second: TiempoAnim_3
+  - first:
+      213: -2019306513485965126
+    second: TiempoAnim_4
+  - first:
+      213: 7100908857612386351
+    second: TiempoAnim_5
+  - first:
+      213: 8579451554288747075
+    second: TiempoAnim_6
+  - first:
+      213: -257547718306044144
+    second: TiempoAnim_7
+  - first:
+      213: -7040106407925518389
+    second: TiempoAnim_8
+  - first:
+      213: -2197246258736441898
+    second: TiempoAnim_9
+  - first:
+      213: 4800412874246014795
+    second: TiempoAnim_10
+  - first:
+      213: -3427246939344611996
+    second: TiempoAnim_11
+  - first:
+      213: -8333594949250124859
+    second: TiempoAnim_12
+  - first:
+      213: 1504408775091633490
+    second: TiempoAnim_13
+  - first:
+      213: -8475620774231239062
+    second: TiempoAnim_14
+  - first:
+      213: -3974263220317177150
+    second: TiempoAnim_15
+  - first:
+      213: 5933891120074266061
+    second: TiempoAnim_16
+  - first:
+      213: 2807630490962434273
+    second: TiempoAnim_17
+  - first:
+      213: 2060361810371000622
+    second: TiempoAnim_18
+  - first:
+      213: 6572039526084482720
+    second: TiempoAnim_19
+  - first:
+      213: -7820986537746465120
+    second: TiempoAnim_20
+  - first:
+      213: -8030057608178770894
+    second: TiempoAnim_21
+  - first:
+      213: 6099711637896803611
+    second: TiempoAnim_22
+  - first:
+      213: 2853405435457676356
+    second: TiempoAnim_23
+  - first:
+      213: 3869740692017300577
+    second: TiempoAnim_24
+  - first:
+      213: 6268419593614279288
+    second: TiempoAnim_25
+  - first:
+      213: 6471337456003544891
+    second: TiempoAnim_26
+  - first:
+      213: 6675565744413328768
+    second: TiempoAnim_27
+  - first:
+      213: -6046738119636169561
+    second: TiempoAnim_28
+  - first:
+      213: 8856291674251970337
+    second: TiempoAnim_29
+  - first:
+      213: -8107528603410293338
+    second: TiempoAnim_30
+  - first:
+      213: -7332565059067972653
+    second: TiempoAnim_31
+  - first:
+      213: 1343062277657828946
+    second: TiempoAnim_32
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 150
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TiempoAnim_0
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 1191
+        width: 126
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5902176d9a83e33a0800000000000000
+      internalID: -6683842494872870763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TiempoAnim_1
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 1191
+        width: 126
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77e815cfe881dae30800000000000000
+      internalID: 4516293003720101495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TiempoAnim_2
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 1191
+        width: 126
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5f79e6075d95e090800000000000000
+      internalID: -8005819765477507237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TiempoAnim_3
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 1191
+        width: 126
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6e77335f8bf22a70800000000000000
+      internalID: 8800873214830411374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TiempoAnim_4
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 1191
+        width: 126
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab8590bbc6bf9f3e0800000000000000
+      internalID: -2019306513485965126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TiempoAnim_5
+      rect:
+        serializedVersion: 2
+        x: 1191
+        y: 1191
+        width: 126
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f204968dbfe7b8260800000000000000
+      internalID: 7100908857612386351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TiempoAnim_6
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 963
+        width: 126
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 342cd059bb5501770800000000000000
+      internalID: 8579451554288747075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TiempoAnim_7
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 963
+        width: 126
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 017e7a9f6b10d6cf0800000000000000
+      internalID: -257547718306044144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TiempoAnim_8
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 963
+        width: 126
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcfe5a6a5848c4e90800000000000000
+      internalID: -7040106407925518389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TiempoAnim_9
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 963
+        width: 126
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d555ff4b20d181e0800000000000000
+      internalID: -2197246258736441898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TiempoAnim_10
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 963
+        width: 126
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4745a0531e7e9240800000000000000
+      internalID: 4800412874246014795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TiempoAnim_11
+      rect:
+        serializedVersion: 2
+        x: 1191
+        y: 963
+        width: 126
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 465d1d62119ff60d0800000000000000
+      internalID: -3427246939344611996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TiempoAnim_12
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 735
+        width: 126
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c3f4f30c8f195c80800000000000000
+      internalID: -8333594949250124859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TiempoAnim_13
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 735
+        width: 126
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25d315c6fcbb0e410800000000000000
+      internalID: 1504408775091633490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TiempoAnim_14
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 735
+        width: 126
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a669605cfcb806a80800000000000000
+      internalID: -8475620774231239062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TiempoAnim_15
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 735
+        width: 126
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ca381d58a498d8c0800000000000000
+      internalID: -3974263220317177150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TiempoAnim_16
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 735
+        width: 126
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc51fdbd88a695250800000000000000
+      internalID: 5933891120074266061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TiempoAnim_17
+      rect:
+        serializedVersion: 2
+        x: 1191
+        y: 735
+        width: 126
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e81f5a5e05b6f620800000000000000
+      internalID: 2807630490962434273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TiempoAnim_18
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 507
+        width: 126
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e29b1f77620e79c10800000000000000
+      internalID: 2060361810371000622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TiempoAnim_19
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 507
+        width: 126
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a6971af023943b50800000000000000
+      internalID: 6572039526084482720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TiempoAnim_20
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 507
+        width: 126
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ae72886e26467390800000000000000
+      internalID: -7820986537746465120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TiempoAnim_21
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 507
+        width: 126
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23cd49286218f8090800000000000000
+      internalID: -8030057608178770894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TiempoAnim_22
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 507
+        width: 126
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b15b721ca6786a450800000000000000
+      internalID: 6099711637896803611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TiempoAnim_23
+      rect:
+        serializedVersion: 2
+        x: 1191
+        y: 507
+        width: 126
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 444af942025599720800000000000000
+      internalID: 2853405435457676356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TiempoAnim_24
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 279
+        width: 126
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 164c09818a414b530800000000000000
+      internalID: 3869740692017300577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TiempoAnim_25
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 279
+        width: 126
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8724a7ca866edf650800000000000000
+      internalID: 6268419593614279288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TiempoAnim_26
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 279
+        width: 126
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3775ce212fcec950800000000000000
+      internalID: 6471337456003544891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TiempoAnim_27
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 279
+        width: 126
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 085c5860daf54ac50800000000000000
+      internalID: 6675565744413328768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TiempoAnim_28
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 279
+        width: 126
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7acc54997bba51ca0800000000000000
+      internalID: -6046738119636169561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TiempoAnim_29
+      rect:
+        serializedVersion: 2
+        x: 1191
+        y: 279
+        width: 126
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 127c907ea5ed7ea70800000000000000
+      internalID: 8856291674251970337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TiempoAnim_30
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 51
+        width: 126
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ad1963d0b54c7f80800000000000000
+      internalID: -8107528603410293338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TiempoAnim_31
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 51
+        width: 126
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d3ffc9adee7d3a90800000000000000
+      internalID: -7332565059067972653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TiempoAnim_32
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 51
+        width: 126
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25e9503960483a210800000000000000
+      internalID: 1343062277657828946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 52e114bd9f1441b4996628f72c5d3c3a
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      TiempoAnim_0: -6683842494872870763
+      TiempoAnim_1: 4516293003720101495
+      TiempoAnim_10: 4800412874246014795
+      TiempoAnim_11: -3427246939344611996
+      TiempoAnim_12: -8333594949250124859
+      TiempoAnim_13: 1504408775091633490
+      TiempoAnim_14: -8475620774231239062
+      TiempoAnim_15: -3974263220317177150
+      TiempoAnim_16: 5933891120074266061
+      TiempoAnim_17: 2807630490962434273
+      TiempoAnim_18: 2060361810371000622
+      TiempoAnim_19: 6572039526084482720
+      TiempoAnim_2: -8005819765477507237
+      TiempoAnim_20: -7820986537746465120
+      TiempoAnim_21: -8030057608178770894
+      TiempoAnim_22: 6099711637896803611
+      TiempoAnim_23: 2853405435457676356
+      TiempoAnim_24: 3869740692017300577
+      TiempoAnim_25: 6268419593614279288
+      TiempoAnim_26: 6471337456003544891
+      TiempoAnim_27: 6675565744413328768
+      TiempoAnim_28: -6046738119636169561
+      TiempoAnim_29: 8856291674251970337
+      TiempoAnim_3: 8800873214830411374
+      TiempoAnim_30: -8107528603410293338
+      TiempoAnim_31: -7332565059067972653
+      TiempoAnim_32: 1343062277657828946
+      TiempoAnim_4: -2019306513485965126
+      TiempoAnim_5: 7100908857612386351
+      TiempoAnim_6: 8579451554288747075
+      TiempoAnim_7: -257547718306044144
+      TiempoAnim_8: -7040106407925518389
+      TiempoAnim_9: -2197246258736441898
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

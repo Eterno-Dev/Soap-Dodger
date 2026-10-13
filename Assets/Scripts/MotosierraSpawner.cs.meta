@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 337fd96b7bb34d246941e2a31146d810
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - prefab: {instanceID: 0}
+  - camara: {instanceID: 0}
+  - sonidoSierra: {fileID: 8300000, guid: 5802131f29afe744d9dc72ce127739cb, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
