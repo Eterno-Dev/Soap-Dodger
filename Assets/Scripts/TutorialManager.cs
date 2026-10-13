@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using UnityEngine.InputSystem;
 
 public class TutorialManager : MonoBehaviour
@@ -8,8 +8,11 @@ public class TutorialManager : MonoBehaviour
 
     private GameObject[] images; // Array de imagenes dentro del parent
     private int currentIndex = 0; // Indice de la imagen actual
+    private float openTime = 0f;
     private float lastAdvanceTime = 0f;
     private bool stickWasMoved = false;
+    private const float OPEN_COOLDOWN = 0.35f; // Evita que la pulsacion que abrio el menu pase de diapositiva
+    private const float CLOSE_COOLDOWN = 0.45f; // Evita volver a abrir "Como jugar" al cerrar creditos
 
     private void Awake()
     {
@@ -23,6 +26,10 @@ public class TutorialManager : MonoBehaviour
 
     private void OnEnable()
     {
+        openTime = Time.unscaledTime;
+        lastAdvanceTime = Time.unscaledTime;
+        stickWasMoved = false;
+
         if (dashAction != null && dashAction.action != null)
         {
             dashAction.action.Enable();
@@ -143,6 +150,12 @@ public class TutorialManager : MonoBehaviour
 
     public void AdvanceSlide()
     {
+        // Ignorar interacciones durante el periodo inicial tras abrir el tutorial
+        if (Time.unscaledTime - openTime < OPEN_COOLDOWN)
+        {
+            return;
+        }
+
         // Evitar que multiples inputs en el mismo frame avancen mas de una diapositiva
         if (Time.unscaledTime - lastAdvanceTime < 0.15f)
         {
@@ -168,6 +181,9 @@ public class TutorialManager : MonoBehaviour
         }
         else
         {
+            // Bloquear reactivacion inmediata accidental de "Como jugar" al cerrar
+            PanelControl.SetTutorialCooldown(CLOSE_COOLDOWN);
+
             // Si llegamos al final, cerrar el panel y reiniciar secuencia
             ResetImages();
             gameObject.SetActive(false);

@@ -36,8 +36,20 @@ public class PanelControl : MonoBehaviour
         #endif
     }
 
+    private static float nextAllowedOpenTime = 0f;
+
+    public static void SetTutorialCooldown(float duration = 0.4f)
+    {
+        nextAllowedOpenTime = Time.unscaledTime + duration;
+    }
+
     public void HowToPlay()
     {
+        if (Time.unscaledTime < nextAllowedOpenTime)
+        {
+            return;
+        }
+
         panel.SetActive(true);
     }
 }
