@@ -37,6 +37,7 @@ public class playerMovement : MonoBehaviour
     public GameObject uiMuerte;
     public GameObject uiPausa;
     [HideInInspector] public bool enPausa;
+    private RoundUIManager roundUI;
 
     private PlayerControls controls;
 
@@ -94,6 +95,7 @@ public class playerMovement : MonoBehaviour
         camZo = FindAnyObjectByType<CameraZoom>();
         playerRB = GetComponent<Rigidbody2D>();
         RM = FindAnyObjectByType<RoundManager>();
+        roundUI = FindAnyObjectByType<RoundUIManager>();
 
         muerto = false;
         escudo = false;
@@ -141,6 +143,7 @@ public class playerMovement : MonoBehaviour
 
         if (muerto)
         {
+            if (roundUI != null) roundUI.OcultarPorMuerte();
             Time.timeScale = 0f;
             uiMuerte?.SetActive(true);
             PlayDeathSound();
@@ -225,6 +228,7 @@ public class playerMovement : MonoBehaviour
             {
                 anim.SetBool("deat", true);
                 muerto = true;
+                if (roundUI != null) roundUI.OcultarPorMuerte();
             }
             else if (isDashing)
             {
@@ -303,6 +307,10 @@ public class playerMovement : MonoBehaviour
         if (muerto) return;
         enPausa = true;
         Time.timeScale = 0f;
+        if (roundUI != null)
+        {
+            roundUI.PausarRondaUI();
+        }
         if (uiPausa != null)
         {
             uiPausa.SetActive(true);
@@ -316,6 +324,10 @@ public class playerMovement : MonoBehaviour
         if (uiPausa != null)
         {
             uiPausa.SetActive(false);
+        }
+        if (roundUI != null)
+        {
+            roundUI.ReanudarRondaUI();
         }
     }
 
