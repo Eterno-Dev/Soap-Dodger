@@ -64,7 +64,7 @@ public class UISelectionKeeper : MonoBehaviour
             else
             {
                 // Si el ultimo ya no esta disponible, seleccionar el primer Selectable activo
-                Selectable[] selectables = FindObjectsByType<Selectable>(FindObjectsSortMode.None);
+                Selectable[] selectables = FindObjectsByType<Selectable>(FindObjectsInactive.Exclude);
                 foreach (var sel in selectables)
                 {
                     if (sel.gameObject.activeInHierarchy && sel.interactable)
