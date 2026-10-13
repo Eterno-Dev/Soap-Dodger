@@ -35,6 +35,8 @@ public class playerMovement : MonoBehaviour
 
     public GameObject uiTiempo;
     public GameObject uiMuerte;
+    public GameObject uiPausa;
+    [HideInInspector] public bool enPausa;
 
     private PlayerControls controls;
 
@@ -55,13 +57,14 @@ public class playerMovement : MonoBehaviour
     void OnEnable()
     {
         controls.Gameplay.Enable();
-        controls.Gameplay.Dash.performed += ctx => TryDash();
-        controls.Gameplay.Dash.performed += ctx => ReloadSceneIfDead();
-        controls.Gameplay.Return.performed += ctx => ReturnToMenu();
+        controls.Gameplay.Dash.performed += OnDashAction;
+        controls.Gameplay.Return.performed += OnReturnAction;
     }
 
     void OnDisable()
     {
+        controls.Gameplay.Dash.performed -= OnDashAction;
+        controls.Gameplay.Return.performed -= OnReturnAction;
         controls.Gameplay.Disable();
     }
 
@@ -77,14 +80,20 @@ public class playerMovement : MonoBehaviour
         escudo = false;
         tiempo = false;
         canDash = false;
+        enPausa = false;
 
         if (uiTiempo) uiTiempo.SetActive(false);
         if (uiMuerte) uiMuerte.SetActive(false);
+        if (uiPausa) uiPausa.SetActive(false);
     }
 
     void Update()
     {
-        if (PauseMenu.isPaused) return;
+        if (enPausa)
+        {
+            Time.timeScale = 0f;
+            return;
+        }
 
         movement = controls.Gameplay.Move.ReadValue<Vector2>();
 
@@ -129,7 +138,7 @@ public class playerMovement : MonoBehaviour
 
     void FixedUpdate()
     {
-        if (muerto || PauseMenu.isPaused) return;
+        if (muerto || enPausa) return;
 
         if (isDashing)
         {
@@ -143,7 +152,7 @@ public class playerMovement : MonoBehaviour
 
     private void TryDash()
     {
-        if (!isDashing && canDash && !PauseMenu.isPaused)
+        if (!isDashing && canDash && !enPausa)
         {
             StartDash();
         }
@@ -224,20 +233,64 @@ public class playerMovement : MonoBehaviour
         canDash = false;
     }
 
-    private void ReturnToMenu()
-    {
-        if (muerto)
-        {
-            SceneManager.LoadScene("MenuInicio");
-        }
-    }
-
-    private void ReloadSceneIfDead()
+    private void OnDashAction(InputAction.CallbackContext ctx)
     {
         if (muerto)
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
+        else if (enPausa)
+        {
+            ResumeGame();
+        }
+        else
+        {
+            TryDash();
+        }
+    }
+
+    private void OnReturnAction(InputAction.CallbackContext ctx)
+    {
+        if (muerto)
+        {
+            SceneManager.LoadScene("MenuInicio");
+        }
+        else if (enPausa)
+        {
+            ReturnToMenuFromPause();
+        }
+        else
+        {
+            PauseGame();
+        }
+    }
+
+    public void PauseGame()
+    {
+        if (muerto) return;
+        enPausa = true;
+        Time.timeScale = 0f;
+        if (uiPausa != null)
+        {
+            uiPausa.SetActive(true);
+        }
+    }
+
+    public void ResumeGame()
+    {
+        enPausa = false;
+        Time.timeScale = 1f;
+        if (uiPausa != null)
+        {
+            uiPausa.SetActive(false);
+        }
+    }
+
+    public void ReturnToMenuFromPause()
+    {
+        enPausa = false;
+        Time.timeScale = 1f;
+        SceneManager.LoadScene("MenuInicio");
     }
 
     // Método para reproducir el sonido de muerte
